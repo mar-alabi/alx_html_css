@@ -1,3 +1,17 @@
+:root {
+  --deep-navy: #1e3a8a;
+  --light-grey: #f3f4f6;
+  --dark-grey: #111827;
+  --teal: #06b6d4;
+  --border-grey: #d1d5db;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  box-sizing: border-box;
+}
 body,
 main {
   display: flex;
