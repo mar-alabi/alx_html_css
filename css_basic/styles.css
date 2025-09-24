@@ -11,6 +11,7 @@
 *::after {
   margin: 0;
   box-sizing: border-box;
+  padding: 10px;
 }
 body,
 main {
@@ -20,12 +21,33 @@ main {
 body {
   flex-direction: column;
 }
+header {
+  background-color: var(--deep-navy);
+}
+a {
+  color: var(--light-grey);
+  text-decoration: none;
+}
+a:hover {
+  color: var(--teal);
+}
+header li.logo {
+  color: var(--teal);
+}
 main {
   flex-direction: row;
   flex: auto;
+  background-color: var(--light-grey);
+  color: var(--dark-grey);
+}
+h1,
+h2,
+h3 {
+  color: var(--deep-navy);
 }
 article {
   flex: 2;
+  border: 2px solid var(--border-grey);
 }
 aside {
   flex: 1;
@@ -33,4 +55,26 @@ aside {
 article,
 aside {
   overflow-y: auto;
+}
+
+th {
+  background-color: var(--deep-navy);
+  color: var(--light-grey);
+}
+td,
+th {
+  padding: 10px;
+  border: 5px solid var(--border-grey);
+}
+.odd {
+  background-color: var(--deep-navy);
+  color: var(--light-grey);
+}
+.even {
+  background-color: var(--light-grey);
+  color: var(--dark-grey);
+}
+footer {
+  background-color: var(--deep-navy);
+  color: var(--light-grey);
 }
