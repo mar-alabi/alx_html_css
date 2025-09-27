@@ -1,0 +1,105 @@
+/* add font code */
+@font-face {
+  font-family: "spin_cycle_otregular";
+  src: url("spincycle_ot-webfont.eot");
+  src: url("spincycle_ot-webfont.eot?#iefix") format("embedded-opentype"),
+    url("spincycle_ot-webfont.woff2") format("woff2"),
+    url("spincycle_ot-webfont.woff") format("woff"),
+    url("spincycle_ot-webfont.ttf") format("truetype"),
+    url("spincycle_ot-webfont.svg#spin_cycle_otregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "spin_cycle_3d_otregular";
+  src: url("spincycle_3d_ot-webfont.eot");
+  src: url("spincycle_3d_ot-webfont.eot?#iefix") format("embedded-opentype"),
+    url("spincycle_3d_ot-webfont.woff2") format("woff2"),
+    url("spincycle_3d_ot-webfont.woff") format("woff"),
+    url("spincycle_3d_ot-webfont.ttf") format("truetype"),
+    url("spincycle_3d_ot-webfont.svg#spin_cycle_3d_otregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap");
+
+body {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.hero {
+  background-image: url("./images/Object.png");
+  background-size: cover; /* scale image to fill */
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #ffffff;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 1.5rem;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #ffffff;
+}
+h1 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 7.5rem;
+}
+.hero-sub {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  font-weight: bold;
+}
+.register {
+  background-color: #c271ff;
+  color: #ffffff;
+  padding: 0.5rem;
+  font-weight: bold;
+  border-radius: 1rem;
+  display: block;
+  margin: 1rem auto;
+}
+#learn {
+  color: #c271ff;
+  font-weight: bold;
+}
+.cta {
+  text-align: center;
+  font-weight: normal;
+}
+.pros {
+  display: flex;
+  /* margin: 7rem; */
+  padding: 7rem;
+}
+.pros img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.pro {
+  display: flex;
+  flex-direction: column;
+  /* width: 25%; */
+  flex: 0.25;
+  gap: 0.5rem;
+}
