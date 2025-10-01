@@ -82,8 +82,23 @@ nav ul a {
 .pros_list {
   display: flex;
   justify-content: space-evenly;
+  padding: 120px;
+  margin-top: 150px;
 }
 .pros img {
   display: block;
   border-radius: 50%;
+}
+.user-story {
+  background-color: #c271ff;
+  padding: 80px;
+  color: white;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-size: 1.2rem;
+}
+.user-review p {
+  font-style: italic;
 }
