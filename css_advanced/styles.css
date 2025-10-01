@@ -10,9 +10,11 @@
   font-family: "Source Sans 3", sans-serif;
 }
 
-header {
+header,
+.hero {
   background-image: url(./images/hero_background.png);
   padding: 30px;
+  color: white;
 }
 
 nav {
@@ -31,4 +33,57 @@ nav ul {
 nav ul a {
   text-decoration: none;
   color: white;
+}
+
+.register {
+  text-align: center;
+}
+.register h1 {
+  font-size: 120px;
+}
+.caption {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  font-weight: bold;
+}
+.register button {
+  background-color: #c271ff;
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 25px;
+  font-size: 14px;
+  font-weight: bold;
+  display: block;
+  margin: auto;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.register button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(194, 113, 255, 0.4);
+}
+.pros {
+  margin-top: 30px;
+}
+.pros h2 {
+  font-size: 2rem;
+  margin-bottom: 60px;
+  margin-top: 50px;
+  color: #c271ff;
+  text-align: center;
+}
+
+.pros span {
+  color: white;
+}
+.pros_list {
+  display: flex;
+  justify-content: space-evenly;
+}
+.pros img {
+  display: block;
+  border-radius: 50%;
 }
