@@ -10,7 +10,9 @@
   font-family: "Source Sans 3", sans-serif;
 }
 
-header,
+header {
+  position: absolute;
+}
 .hero {
   background-image: url(./images/hero_background.png);
   padding: 30px;
