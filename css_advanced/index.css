@@ -14,6 +14,7 @@ body {
   font-family: "Source Sans 3", sans-serif;
   margin: 0;
   font-size: 16px;
+  line-height: 1.5;
 }
 
 .container {
@@ -108,4 +109,65 @@ nav ul li a {
 }
 .pros-profile p {
   font-style: italic;
+}
+
+.testimonials-section {
+  background-color: var(--purple);
+  padding: 4.5rem 0;
+  color: var(--white);
+}
+.testimonials-section h3 {
+  font-size: 1rem;
+  margin-top: 3rem;
+}
+.testimonial {
+  display: flex;
+  gap: 2rem;
+  width: 80%;
+}
+.tutorials-section {
+  padding: 3rem 0;
+}
+.tutorials {
+  display: flex;
+  gap: 2rem;
+}
+.play-button {
+  padding: 2.5rem 5rem;
+}
+.diagonal {
+  background-image: url(./images/diagonal.png);
+}
+.natural {
+  background-image: url(./images/natural.png);
+}
+.sad {
+  background-image: url(./images/sad.png);
+}
+.happy {
+  background-image: url(./images/happy.png);
+}
+.smile-tutorial > p {
+  color: var(--text-color);
+}
+.author {
+  font-weight: 200;
+}
+.rating {
+  font-weight: 400;
+  justify-content: space-between;
+}
+.author,
+.rating {
+  display: flex;
+  gap: 1rem;
+  color: var(--purple);
+}
+.tutorials-section h2 {
+  text-align: center;
+  font-weight: normal;
+}
+.tutorials-section h2 span {
+  color: var(--purple);
+  font-weight: bold;
 }
