@@ -165,9 +165,41 @@ nav ul li a {
 }
 .tutorials-section h2 {
   text-align: center;
-  font-weight: normal;
+  font-weight: lighter;
 }
 .tutorials-section h2 span {
   color: var(--purple);
   font-weight: bold;
+}
+.membership-section {
+  background-color: var(--navy-blue);
+  color: var(--white);
+  padding: 2rem;
+}
+.memberships {
+  display: flex;
+  padding: 2rem;
+  gap: 1rem;
+}
+.membership-section h2 {
+  text-align: center;
+  font-weight: lighter;
+}
+.membership-section span {
+  color: var(--purple);
+  font-weight: bold;
+}
+.footer-section {
+  background-color: var(--navy-blue);
+  color: var(--white);
+  padding: 2rem;
+}
+.footer-logos {
+  display: flex;
+  justify-content: space-between;
+}
+.copyright {
+  text-align: center;
+  font-weight: lighter;
+  margin-top: 2rem;
 }
